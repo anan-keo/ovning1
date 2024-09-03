@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(to right, #16423C, #C4DAD2);
+    padding-bottom: 10rem;
+}
+
+header{
+    width: 100%;
+}
+
+.header--content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.header--links{
+    display: flex;
+    gap: 1rem;
+}
+
+a{
+    color: black;
+    transition: all 150ms ease-in-out;
+}
+a:hover{
+    transform: scale(1.05);
+    color: black;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.showcase{
+    background-image: linear-gradient(to right, #16423C, #C4DAD2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+}
+
+.showcase--p{
+    font-size: 1.4rem;
+}
+
+.showcase a{
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.career-h3{
+    color: #C4DAD2;
+}
+
+#about, #spare-time{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 30rem;
+}
+
+.card{
+    background-color: #C4DAD2;
+    padding: 1.7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
